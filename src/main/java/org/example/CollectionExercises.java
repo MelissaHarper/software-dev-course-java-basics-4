@@ -47,7 +47,7 @@ public class CollectionExercises {
         // Create and return an ArrayList of strings with the following values:
         // "apple", "banana", "cherry", "date", "elderberry"
         // Replace the line below with your implementation
-        ArrayList<String>  newFruits = new ArrayList<String>(Arrays.asList("apple", "banana", "cherry", "date", "elderberry"));
+        ArrayList<String> newFruits = new ArrayList<>(Arrays.asList("apple", "banana", "cherry", "date", "elderberry"));
 
         return newFruits;
     }
