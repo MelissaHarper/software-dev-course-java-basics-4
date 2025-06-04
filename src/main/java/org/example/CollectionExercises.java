@@ -55,7 +55,8 @@ public class CollectionExercises {
     public ArrayList<String> makeListOfThreeFruits(String fruit1, String fruit2, String fruit3) {
         // Create and return an ArrayList of strings with the given values
         // Replace the line below with your implementation
-        ArrayList<String> threeFruits = new ArrayList<>(Arrays.asList(fruit1, fruit2, fruit3));
+        ArrayList<String> threeFruits;
+        threeFruits = new ArrayList<>(Arrays.asList(fruit1, fruit2, fruit3));
         return threeFruits;
     }
 
@@ -63,7 +64,7 @@ public class CollectionExercises {
         // Create and return a HashMap with the following key-value pairs:
         // "apple" -> "red", "banana" -> "yellow", "cherry" -> "red", "date" -> "brown", "elderberry" -> "black"
         // Replace the line below with your implementation
-        HashMap<String, String> fruitMap = new HashMap<String, String>();
+        HashMap<String, String> fruitMap = new HashMap<>();
             fruitMap.put("apple", "red");
             fruitMap.put("banana", "yellow");
             fruitMap.put("cherry", "red");
